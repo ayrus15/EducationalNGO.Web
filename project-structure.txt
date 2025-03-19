@@ -1,0 +1,50 @@
+EducationalNGO.Web/
+├── Controllers/
+│   ├── BeneficiaryController.cs
+│   ├── DonationController.cs
+│   ├── EventController.cs
+│   ├── HomeController.cs
+│   └── VolunteerController.cs
+├── Models/
+│   ├── Beneficiary.cs
+│   ├── Donation.cs
+│   ├── Event.cs
+│   ├── ErrorViewModel.cs
+│   └── Volunteer.cs
+├── Data/
+│   └── ApplicationDbContext.cs
+├── Views/
+│   ├── Beneficiary/
+│   │   ├── Create.cshtml
+│   │   ├── Edit.cshtml
+│   │   ├── Delete.cshtml
+│   │   └── Index.cshtml
+│   ├── Donation/
+│   │   ├── Create.cshtml
+│   │   ├── Edit.cshtml
+│   │   ├── Delete.cshtml
+│   │   └── Index.cshtml
+│   ├── Event/
+│   │   ├── Create.cshtml
+│   │   ├── Edit.cshtml
+│   │   ├── Delete.cshtml
+│   │   └── Index.cshtml
+│   ├── Volunteer/
+│   │   ├── Create.cshtml
+│   │   ├── Edit.cshtml
+│   │   ├── Delete.cshtml
+│   │   └── Index.cshtml
+│   ├── Shared/
+│   │   ├── _Layout.cshtml
+│   │   └── Error.cshtml
+│   └── Home/
+│       └── Index.cshtml
+├── wwwroot/
+│   ├── css/
+│   │   └── site.css
+│   ├── js/
+│   │   └── site.js
+│   └── lib/
+├── appsettings.json
+├── Program.cs
+└── EducationalNGO.Web.csproj
